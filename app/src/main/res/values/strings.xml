@@ -1,0 +1,53 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<string name="app_name">Damany</string>
+	
+	<!-- WelcomeActivity -->
+	<string name="welcome_activity_title">Damany</string>
+	
+	<!-- LoginActivity -->
+	<string name="login_activity_title"></string>
+	<string name="login_activity_contnue_buttton_button_text">CONTINUE</string>
+	<string name="login_activity_password_edit_text_hint">Password</string>
+	<string name="login_activity_email_edit_text_hint">Email</string>
+	<string name="login_activity_sign_in_text_view_text">SIGN IN</string>
+	<string name="login_activity_don_thave_an_accoun_button_text">Don’t Have An Account?</string>
+	
+	<!-- SignUpActivity -->
+	<string name="sign_up_activity_title"></string>
+	<string name="sign_up_activity_contnue_buttton_button_text">CONTINUE</string>
+	<string name="sign_up_activity_name_edit_text_hint">Email</string>
+	<string name="sign_up_activity_password_edit_text_hint">Password</string>
+	<string name="sign_up_activity_phone_number_edit_text_hint">Phone Number</string>
+	<string name="sign_up_activity_sign_up_text_view_text">SIGN UP</string>
+	
+	<!-- FirstPageActivity -->
+	<string name="first_page_activity_title">Warranties</string>
+	<string name="first_page_activity_item_menu_item_text">Logout</string>
+	<string name="warranty1_view_holder_jarir_text_view_text">Jarir</string>
+	<string name="warranty1_view_holder_iphone_xtext_view_text">IPhone X</string>
+	<string name="warranty1_view_holder_date_text_view_text">Warranty will expire at 2020/02/13</string>
+	<string name="warranty1_view_holder_more_details_button_text">more Details</string>
+	<string name="warranty2_view_holder_extra_text_view_text">Extra</string>
+	<string name="warranty2_view_holder_dell_lapto_text_view_text">Dell lapto</string>
+	<string name="warranty2_view_holder_date_text_view_text">Warranty will expire at 2021/02/13</string>
+	<string name="warranty2_view_holder_more_details_text_view_text">more Details</string>
+	
+	<!-- MoreDetailsActivity -->
+	<string name="more_details_activity_title"></string>
+	<string name="more_details_activity_jarir_text_view_text">Jarir</string>
+	<string name="more_details_activity_iphone_xtext_view_text">IPhone X</string>
+	<string name="more_details_activity_ex_date_text_view_text">Expire date :2020/02/13</string>
+	<string name="more_details_activity_pr_date_copy_text_view_text">Purchase date :2018/02/13</string>
+	<string name="more_details_activity_pr_date_copy2_text_view_text">Bill Number: 149643</string>
+	<string name="more_details_activity_price_text_view_text">Price: 3000 SR</string>
+	<string name="more_details_activity_contact_text_view_text">Contact: 92000000 </string>
+	<string name="more_details_activity_send_to_another_button_text">Send to another</string>
+	
+	<!-- SendToActivity -->
+	<string name="send_to_activity_title"></string>
+	<string name="send_to_activity_number_edit_text_hint">Number</string>
+	<string name="send_to_activity_please_enter_phone_ntext_view_text">Please Enter Phone Number for a new Owner</string>
+	<string name="send_to_activity_create_button_text">Submit</string>
+</resources>

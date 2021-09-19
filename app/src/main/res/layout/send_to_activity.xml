@@ -1,0 +1,73 @@
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/send_to_constraint_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/send_to_activity_send_to_constraint_layout_background_color">
+
+	<EditText
+		android:id="@+id/number_edit_text"
+		android:layout_width="@dimen/send_to_activity_number_edit_text_width"
+		android:layout_height="@dimen/send_to_activity_number_edit_text_height"
+		android:layout_marginTop="@dimen/send_to_activity_number_edit_text_margin_top"
+		android:background="@drawable/send_to_activity_number_edit_text_background"
+		android:fontFamily="@font/font_applesystemuifont"
+		android:gravity="center|center_vertical"
+		android:hint="@string/send_to_activity_number_edit_text_hint"
+		android:inputType="phone"
+		android:maxLines="1"
+		android:textColor="@color/send_to_activity_number_edit_text_text_color"
+		android:textColorHint="@color/default_hint"
+		android:textSize="@dimen/send_to_activity_number_edit_text_text_size"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/please_enter_phone_ntext_view"
+		tools:layout_editor_absoluteX="77dp"
+		tools:layout_editor_absoluteY="282dp"/>
+
+	<TextView
+		android:id="@+id/please_enter_phone_ntext_view"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="@dimen/send_to_activity_please_enter_phone_ntext_view_margin_start"
+		android:layout_marginRight="@dimen/send_to_activity_please_enter_phone_ntext_view_margin_end"
+		android:layout_marginTop="@dimen/send_to_activity_please_enter_phone_ntext_view_margin_top"
+		android:fontFamily="@font/font_arialunicodems"
+		android:gravity="center"
+		android:text="@string/send_to_activity_please_enter_phone_ntext_view_text"
+		android:textColor="@color/send_to_activity_please_enter_phone_ntext_view_text_color"
+		android:textSize="@dimen/send_to_activity_please_enter_phone_ntext_view_text_size"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="19dp"
+		tools:layout_editor_absoluteY="203dp"/>
+
+	<Button
+		android:id="@+id/create_button"
+		android:layout_width="@dimen/send_to_activity_create_button_width"
+		android:layout_height="@dimen/send_to_activity_create_button_height"
+		android:layout_marginTop="@dimen/send_to_activity_create_button_margin_top"
+		android:background="@drawable/send_to_activity_create_button_ripple"
+		android:fontFamily="@font/font_arialunicodems"
+		android:gravity="center"
+		android:text="@string/send_to_activity_create_button_text"
+		android:textColor="@color/send_to_activity_create_button_text_color"
+		android:textSize="@dimen/send_to_activity_create_button_text_size"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/number_edit_text"
+		tools:layout_editor_absoluteX="109dp"
+		tools:layout_editor_absoluteY="365dp"/>
+
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/toolbar"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:background="@color/send_to_activity_toolbar_background_color"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"/>
+</android.support.constraint.ConstraintLayout>

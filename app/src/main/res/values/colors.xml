@@ -1,0 +1,83 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<color name="color_primary">#000000</color>
+	<color name="color_primary_dark">#000000</color>
+	<color name="color_accent">#000000</color>
+	<color name="click_overlay">#555555</color>
+	<color name="default_hint">#C6C6CB</color>
+	<color name="material_bottom_sheet_title">#8a000000</color>
+	<color name="material_bottom_sheet_item">#de000000</color>
+	
+	<!-- WelcomeActivity -->
+	<color name="welcome_activity_welcome_constraint_layout_background_color">#FFFFFF</color>
+	
+	<!-- LoginActivity -->
+	<color name="login_activity_login_constraint_layout_background_color">#FFFFFF</color>
+	<color name="login_activity_form_constraint_layout_background_color">#F9F9F9</color>
+	<color name="login_activity_contnue_buttton_button_background_color">#000CD4</color>
+	<color name="login_activity_contnue_buttton_button_text_color">#F9F9F9</color>
+	<color name="login_activity_password_edit_text_background_color">@android:color/transparent</color>
+	<color name="login_activity_password_edit_text_text_color">#999999</color>
+	<color name="login_activity_email_edit_text_background_color">@android:color/transparent</color>
+	<color name="login_activity_email_edit_text_text_color">#999999</color>
+	<color name="login_activity_sign_in_text_view_text_color">#444444</color>
+	<color name="login_activity_don_thave_an_accoun_button_text_color">#2B00DD</color>
+	
+	<!-- SignUpActivity -->
+	<color name="sign_up_activity_sign_up_constraint_layout_background_color">#FFFFFF</color>
+	<color name="sign_up_activity_form_constraint_layout_background_color">#F9F9F9</color>
+	<color name="sign_up_activity_contnue_buttton_button_background_color">#000CD4</color>
+	<color name="sign_up_activity_contnue_buttton_button_text_color">#F9F9F9</color>
+	<color name="sign_up_activity_name_edit_text_background_color">@android:color/transparent</color>
+	<color name="sign_up_activity_name_edit_text_text_color">#999999</color>
+	<color name="sign_up_activity_password_edit_text_background_color">@android:color/transparent</color>
+	<color name="sign_up_activity_password_edit_text_text_color">#999999</color>
+	<color name="sign_up_activity_phone_number_edit_text_background_color">@android:color/transparent</color>
+	<color name="sign_up_activity_phone_number_edit_text_text_color">#999999</color>
+	<color name="sign_up_activity_sign_up_text_view_text_color">#444444</color>
+	
+	<!-- FirstPageActivity -->
+	<color name="first_page_activity_first_page_constraint_layout_background_color">#FFFFFF</color>
+	<color name="first_page_activity_warranties_section_recycler_view_background_color">#D8D8D8</color>
+	<color name="warranty1_view_holder_warranty1_background_color">#010993</color>
+	<color name="warranty1_view_holder_warranty1_border_color">#979797</color>
+	<color name="warranty1_view_holder_jarir_text_view_text_color">#FFFFFF</color>
+	<color name="warranty1_view_holder_iphone_xtext_view_text_color">#FFFFFF</color>
+	<color name="warranty1_view_holder_date_text_view_text_color">#FFFFFF</color>
+	<color name="warranty1_view_holder_more_details_button_text_color">#FF0000</color>
+	<color name="warranty2_view_holder_warranty2_background_color">#010993</color>
+	<color name="warranty2_view_holder_warranty2_border_color">#979797</color>
+	<color name="warranty2_view_holder_extra_text_view_text_color">#FFFFFF</color>
+	<color name="warranty2_view_holder_dell_lapto_text_view_text_color">#FFFFFF</color>
+	<color name="warranty2_view_holder_date_text_view_text_color">#FFFFFF</color>
+	<color name="warranty2_view_holder_more_details_text_view_text_color">#FF0000</color>
+	<color name="first_page_activity_toolbar_background_color">#E0E0E0</color>
+	<color name="first_page_activity_toolbar_text_color">#1B0099</color>
+	
+	<!-- MoreDetailsActivity -->
+	<color name="more_details_activity_more_details_constraint_layout_background_color">#FFFFFF</color>
+	<color name="more_details_activity_warranty_det_constraint_layout_background_color">#010993</color>
+	<color name="more_details_activity_warranty_det_constraint_layout_border_color">#979797</color>
+	<color name="more_details_activity_jarir_text_view_text_color">#FFFFFF</color>
+	<color name="more_details_activity_iphone_xtext_view_text_color">#FFFFFF</color>
+	<color name="more_details_activity_ex_date_text_view_text_color">#FFFFFF</color>
+	<color name="more_details_activity_pr_date_copy_text_view_text_color">#FFFFFF</color>
+	<color name="more_details_activity_pr_date_copy2_text_view_text_color">#FFFFFF</color>
+	<color name="more_details_activity_price_text_view_text_color">#FFFFFF</color>
+	<color name="more_details_activity_contact_text_view_text_color">#FFFFFF</color>
+	<color name="more_details_activity_send_to_another_button_text_color">#FF0000</color>
+	<color name="more_details_activity_toolbar_background_color">#E0E0E0</color>
+	<color name="more_details_activity_toolbar_text_color">#1B0099</color>
+	
+	<!-- SendToActivity -->
+	<color name="send_to_activity_send_to_constraint_layout_background_color">#FFFFFF</color>
+	<color name="send_to_activity_number_edit_text_background_color">@android:color/transparent</color>
+	<color name="send_to_activity_number_edit_text_text_color">#8E8E92</color>
+	<color name="send_to_activity_number_edit_text_border_color">#979797</color>
+	<color name="send_to_activity_please_enter_phone_ntext_view_text_color">#2B00DD</color>
+	<color name="send_to_activity_create_button_background_color">#000CD4</color>
+	<color name="send_to_activity_create_button_text_color">#FFFFFF</color>
+	<color name="send_to_activity_toolbar_background_color">#E0E0E0</color>
+	<color name="send_to_activity_toolbar_text_color">#000000</color>
+</resources>

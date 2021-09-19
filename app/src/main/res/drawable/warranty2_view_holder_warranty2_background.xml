@@ -1,0 +1,9 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<stroke
+		android:color="@color/warranty2_view_holder_warranty2_border_color"
+/>
+	<corners android:radius="@dimen/warranty2_view_holder_warranty2_radius"/>
+
+	<solid android:color="@color/warranty2_view_holder_warranty2_background_color"/>
+</shape>

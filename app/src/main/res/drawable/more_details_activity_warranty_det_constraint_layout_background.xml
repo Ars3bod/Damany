@@ -1,0 +1,10 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<stroke
+		android:color="@color/more_details_activity_warranty_det_constraint_layout_border_color"
+		/>
+
+	<corners android:radius="@dimen/more_details_activity_warranty_det_constraint_layout_radius"/>
+
+	<solid android:color="@color/more_details_activity_warranty_det_constraint_layout_background_color"/>
+</shape>

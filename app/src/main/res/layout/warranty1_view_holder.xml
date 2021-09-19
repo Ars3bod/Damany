@@ -1,0 +1,74 @@
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/warranty1"
+    android:layout_width="@dimen/warranty1_view_holder_warranty1_height"
+    android:layout_height="@dimen/warranty1_view_holder_warranty1_height"
+    android:background="@drawable/warranty1_view_holder_warranty1_background">
+
+    <TextView
+        android:id="@+id/jarir_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/warranty1_view_holder_jarir_text_view_margin_top"
+        android:fontFamily="@font/font_arialunicodems"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/warranty1_view_holder_jarir_text_view_text_color"
+        android:textSize="@dimen/warranty1_view_holder_jarir_text_view_text_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="37dp"/>
+
+    <TextView
+        android:id="@+id/iphone_xtext_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/warranty1_view_holder_iphone_xtext_view_margin_top"
+        android:fontFamily="@font/font_arialunicodems"
+        android:gravity="center"
+        android:text="@string/warranty1_view_holder_iphone_xtext_view_text"
+        android:textColor="@color/warranty1_view_holder_iphone_xtext_view_text_color"
+        android:textSize="@dimen/warranty1_view_holder_iphone_xtext_view_text_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jarir_text_view"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="122dp"/>
+
+    <TextView
+        android:id="@+id/date_text_view"
+        android:layout_width="@dimen/warranty1_view_holder_date_text_view_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/warranty1_view_holder_date_text_view_margin_top"
+        android:fontFamily="@font/font_arialunicodems"
+        android:gravity="center"
+        android:text="@string/warranty1_view_holder_date_text_view_text"
+        android:textColor="@color/warranty1_view_holder_date_text_view_text_color"
+        android:textSize="@dimen/warranty1_view_holder_date_text_view_text_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iphone_xtext_view"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="176dp"/>
+
+    <Button
+        android:id="@+id/more_details_button"
+        android:layout_width="@dimen/warranty1_view_holder_more_details_button_width"
+        android:layout_height="@dimen/warranty1_view_holder_more_details_button_height"
+        android:layout_marginTop="@dimen/warranty1_view_holder_more_details_button_margin_top"
+        android:background="?attr/selectableItemBackground"
+        android:fontFamily="@font/font_arialunicodems"
+        android:gravity="center"
+        android:text="@string/warranty1_view_holder_more_details_button_text"
+        android:textColor="@color/warranty1_view_holder_more_details_button_text_color"
+        android:textSize="@dimen/warranty1_view_holder_more_details_button_text_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date_text_view"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="254dp"/>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "588094321026",
+    "firebase_url": "https://damany-v2.firebaseio.com",
+    "project_id": "damany-v2",
+    "storage_bucket": "damany-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588094321026:android:1334d6043f5526c2",
+        "android_client_info": {
+          "package_name": "io.supernova.spacebook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjoL6_viE4CHsdBR7TBxZlUXAXEiJR8tg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588094321026-0hmcoqv8ja0t48p74t1tu8gohjk9277j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588094321026:android:6975f9cf0cea55e0",
+        "android_client_info": {
+          "package_name": "io.supernova.spacebook1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjoL6_viE4CHsdBR7TBxZlUXAXEiJR8tg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588094321026-0hmcoqv8ja0t48p74t1tu8gohjk9277j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
